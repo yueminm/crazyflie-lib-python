@@ -47,17 +47,17 @@ if __name__ == '__main__':
     # lg_stab.add_variable('kalman.statePX', 'float')
     # lg_stab.add_variable('kalman.statePY', 'float')
     # lg_stab.add_variable('kalman.statePZ', 'float')
-    # lg_stab.add_variable('stateEstimate.vx', 'float')
-    # lg_stab.add_variable('stateEstimate.vy', 'float')
-    # lg_stab.add_variable('stateEstimate.vz', 'float')
+    lg_stab.add_variable('stateEstimate.vx', 'float')
+    lg_stab.add_variable('stateEstimate.vy', 'float')
+    lg_stab.add_variable('stateEstimate.vz', 'float')
    
     # position
-    lg_stab.add_variable('kalman.stateX', 'float')
-    lg_stab.add_variable('kalman.stateY', 'float')
-    lg_stab.add_variable('kalman.stateZ', 'float')
-    lg_stab.add_variable('stateEstimate.x', 'float')
-    lg_stab.add_variable('stateEstimate.y', 'float')
-    lg_stab.add_variable('stateEstimate.z', 'float')
+    # lg_stab.add_variable('kalman.stateX', 'float')
+    # lg_stab.add_variable('kalman.stateY', 'float')
+    # lg_stab.add_variable('kalman.stateZ', 'float')
+    # lg_stab.add_variable('stateEstimate.x', 'float')
+    # lg_stab.add_variable('stateEstimate.y', 'float')
+    # lg_stab.add_variable('stateEstimate.z', 'float')
     
     # # angular velocity
     # lg_stab.add_variable('gyro.x', 'float')
